@@ -1,0 +1,22 @@
+{
+  "name": "resto_inov",
+  "version": "1.0.0",
+  "description": "notification de transaction",
+  "main": "node.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node node.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^9.12.0"
+  },
+  "keywords": [
+    "restoinov"
+  ],
+  "author": "Papa Ahmadou Seydou Sow",
+  "license": "ISC"
+}

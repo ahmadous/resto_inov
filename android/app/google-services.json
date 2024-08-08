@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "712743378530",
+    "project_id": "restoinov",
+    "storage_bucket": "restoinov.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712743378530:android:16603e8728d4d68974bb3b",
+        "android_client_info": {
+          "package_name": "com.example.restoInov"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5LH0NY0_pGiAGEIlQBJxbzEBmXhwUYJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712743378530:android:8f8a33623f7a331574bb3b",
+        "android_client_info": {
+          "package_name": "com.example.resto_inov"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5LH0NY0_pGiAGEIlQBJxbzEBmXhwUYJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
