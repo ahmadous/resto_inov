@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'StudentHomePage.dart'; // Importez vos pages ici
+import 'student/StudentHomePage.dart'; // Importez vos pages ici
 import 'SettingsPage.dart'; // Importez vos pages ici
 import 'transaction.dart'; // Importez vos pages ici
 

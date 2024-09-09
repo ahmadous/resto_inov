@@ -12,7 +12,12 @@
           "package_name": "com.example.restoInov"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "712743378530-1mhiqurapie7qqitvdtdu10vj0f6hsip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyC5LH0NY0_pGiAGEIlQBJxbzEBmXhwUYJ8"
@@ -20,7 +25,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712743378530-1mhiqurapie7qqitvdtdu10vj0f6hsip.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "712743378530-4qljv6rikjquh6dksf4f5avnt3hf27pt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.restoInov"
+              }
+            }
+          ]
         }
       }
     },
@@ -31,7 +48,12 @@
           "package_name": "com.example.resto_inov"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "712743378530-1mhiqurapie7qqitvdtdu10vj0f6hsip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyC5LH0NY0_pGiAGEIlQBJxbzEBmXhwUYJ8"
@@ -39,7 +61,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712743378530-1mhiqurapie7qqitvdtdu10vj0f6hsip.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "712743378530-4qljv6rikjquh6dksf4f5avnt3hf27pt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.restoInov"
+              }
+            }
+          ]
         }
       }
     }

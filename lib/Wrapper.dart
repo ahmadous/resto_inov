@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:provider/provider.dart';
-import 'StudentHomePage.dart';
-import 'ManagerHomePage.dart';
+import 'student/StudentHomePage.dart';
+import 'manager/ManagerHomePage.dart';
 import 'LoginPage.dart';
 import 'admin/MainAdminPage.dart';
 
@@ -35,7 +35,14 @@ class Wrapper extends StatelessWidget {
 
           if (!snapshot.hasData || !snapshot.data!.exists) {
             return Scaffold(
-              body: Center(child: Text('User data not found.')),
+              body: Center(child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text('User data not found.'),
+                  ElevatedButton(onPressed:
+                  ()=>Navigator.push(context,MaterialPageRoute(builder: (context)=>LoginPage())), child: Text("voulez vous retourner a la page de connexion"))
+                ],
+              )),
             );
           }
 

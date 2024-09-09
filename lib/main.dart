@@ -4,12 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 import 'package:resto_inov/NotificationService.dart';
-import 'admin/AdminHomePage.dart';
 import 'MainPage.dart';
 import 'LoginPage.dart';
-import 'ManagerHomePage.dart';
+import 'manager/ManagerHomePage.dart';
 import 'SignUpPage.dart';
-import 'StudentHomePage.dart';
+import 'student/StudentHomePage.dart';
 import 'Wrapper.dart';
 import 'admin/MainAdminPage.dart';
 import 'authservice.dart';
@@ -57,16 +56,14 @@ class MyApp extends StatelessWidget {
           '/signup': (context) => SignUpPage(),
           '/student_home': (context) => StudentHomePage(),
           '/manager_home': (context) => ManagerHomePage(),
-          '/admin_home': (context) => AdminHomePage(),
+          '/admin_home': (context) => MainAdminPage(),
           '/transactions': (context) => TransactionsPage(),
           '/my_qr': (context) => MyQrCodePage(),
           '/home': (context) => ManagerHomePage(),
           '/scan': (context) => QrScannerPage(),
           '/settings': (context) => SettingsPage(),
           '/main': (context) => MainPage(),
-          '/admin_home': (context) =>
-              MainAdminPage(), // Page Admin avec le BottomNavigationBar
-        },
+         },
       ),
     );
   }
